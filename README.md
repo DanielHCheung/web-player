@@ -31,3 +31,8 @@ pnpm run build:static
 ```shell
 pnpm run build:server
 ```
+
+
+## Build to GitHub Pages
+
+如需部署到GitHub Pages，可参考本仓库的自动脚本程式。通常GitHub Pages的页面不在域名的根目录下，所以需要在```vite.config.ts```文件中增加```base: '/web-player/',```这里对应你的目录。
